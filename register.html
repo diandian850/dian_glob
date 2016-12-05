@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0, user-scalable=no,target-densitydpi=device-dpi">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/wanfa.css">
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/public.js"></script>
+</head>
+<body>
+<section class="page page_body">
+    <!--header部分-->
+    <div class="header">
+        <header class="wanfa-top">
+            <div class="makeup-arrow"><i></i></div>
+            <div class="head_title main_font_color">注册</div>
+        </header>
+    </div>
+    <!--contain部分-->
+    <div class="contain contian_login">
+        <div class="regist_box">
+            <div class="regist-phone">
+                <input type="text" id="phone" class="border_all" placeholder="请输入手机" /><a href="javascript:;" class="send1" onclick="sends.send();">发送验证码</a>
+            </div>
+
+            <div class="regist-ranks">
+                <input type="text" id="ranks" class="border_all" placeholder="请输入验证码"  />
+            </div>
+            <div class="regist_passdword">
+                <input class="border_all desc_color" type="password" placeholder="请输入6~16位密码" value="">
+            </div>
+
+            <div class="register_btn">
+                <a href="javascript:;" class="conform" onclick="sends.conform();">下一步</a>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
